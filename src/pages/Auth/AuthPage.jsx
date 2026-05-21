@@ -6,7 +6,8 @@ import { Shield, User, Mail, Lock, Globe } from 'lucide-react';
 const BASE_URL = "https://cybersecurityai.onrender.com";
 
 // Обновленный URI редиректа: /google/callback
-const GOOGLE_AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth?client_id=311714709919-pku0sib5tlngkg2ucbr93d5da5tesolf.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Funruffled-reconcile-rival.ngrok-free.dev%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&access_type=offline&prompt=consent";
+const GOOGLE_AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth?client_id=311714709919-pku0sib5tlngkg2ucbr93d5da5tesolf.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fphising-ai.vercel.app%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&access_type=offline&prompt=consent";
+
 export default function AuthPage({ onLoginSuccess }) { 
   const [mode, setMode] = useState('signin'); 
   const [loading, setLoading] = useState(false);
