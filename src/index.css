@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Кастомные стили для инпутов Ant Design */
+.cyber-input {
+  background-color: #060a13 !important;
+  border-color: rgba(30, 41, 59, 0.8) !important;
+  color: #e2e8f0 !important;
+  border-radius: 12px !important;
+  height: 44px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.cyber-input:hover {
+  border-color: rgba(59, 130, 246, 0.5) !important;
+}
+
+.ant-input-affix-wrapper-focused, 
+.cyber-input:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.25) !important;
+}
+
+.ant-input-password-icon {
+  color: #64748b !important;
+}
+
+.ant-input-password-icon:hover {
+  color: #cbd5e1 !important;
+}
